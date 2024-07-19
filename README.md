@@ -24,10 +24,10 @@ helm install --namespace ns-build --create-namespace \
 
 ## Upgrading or Installing the Actions Runner Controller
 
-To upgrade or install the Actions Runner Controller in the `filebeat` namespace, use the following command:
+To upgrade or install the Actions Runner Controller in the `ns-build` namespace, use the following command:
 
 ```bash
-helm upgrade --install --namespace filebeat \
+helm upgrade --install --namespace ns-build \
   --set=authSecret.create=true \
   --set=authSecret.github_token="YOUR_ORGANIZATION_TOKEN" \
   --wait actions-runner-controller actions-runner-controller/actions-runner-controller
