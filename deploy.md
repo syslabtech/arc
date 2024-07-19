@@ -1,6 +1,3 @@
-Here's a well-structured `README.md` file that includes the provided `RunnerDeployment` YAML configuration. This document will help users understand how to deploy a RunnerDeployment in a Kubernetes environment using the Actions Runner Controller.
-
-
 # RunnerDeployment Configuration for GitHub Actions
 
 This document provides the configuration for deploying a GitHub Actions RunnerDeployment using the Actions Runner Controller in a Kubernetes cluster.
