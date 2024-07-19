@@ -59,6 +59,3 @@ kubectl apply -f runnerdeployment.yaml
 ## Conclusion
 
 This configuration sets up a RunnerDeployment for GitHub Actions using the Actions Runner Controller. Adjust the parameters as necessary to fit your specific requirements. Make sure to have the `controller-manager` secret properly configured with your GitHub API credentials for successful authentication.
-
-
-This `README.md` file provides a clear explanation of the `RunnerDeployment` configuration, making it easy for users to understand and apply it in their Kubernetes environments.
