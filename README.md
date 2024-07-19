@@ -1,4 +1,4 @@
-```markdown
+
 # ARC Helm REPO
 
 ## Adding the Helm Repository
