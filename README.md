@@ -32,7 +32,6 @@ helm upgrade --install --namespace filebeat \
   --set=authSecret.github_token="YOUR_ORGANIZATION_TOKEN" \
   --wait actions-runner-controller actions-runner-controller/actions-runner-controller
 ```
-```
 
 file provides clear instructions on how to add the Helm repository, install, and upgrade the Actions Runner Controller. Make sure to replace the GitHub tokens with your own for security purposes.
 
