@@ -37,3 +37,4 @@ file provides clear instructions on how to add the Helm repository, install, and
 
 Citations:
 [1] https://actions-runner-controller.github.io/actions-runner-controller
+[2] https://github.com/actions/actions-runner-controller/blob/master/docs/installing-arc.md
